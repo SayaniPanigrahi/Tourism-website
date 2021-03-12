@@ -1,0 +1,282 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+.nav{
+    background-color:rgba(0, 0, 0, 0.685);
+}
+.nav a{
+    position:relative;
+    float:left;
+    text-align:center;
+    padding:20px 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: silver;
+    top:70%;
+    left:0%;
+    font-family: cursive;
+    
+  }
+  
+  a:hover{
+  
+    animation-name: test;
+    animation-iteration-count:inherit;
+    text-decoration:underline;
+    cursor: pointer;
+  
+    animation-duration:0.5s;
+  }
+  @keyframes test{
+      form{color: silver;
+      font-size:20px;}
+      to{color: maroon;
+      font-size:30px;}
+  }
+ .main{
+    position: relative;
+    width:100%;
+    height:80vh;
+    background:url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")no-repeat center fixed;
+    background-size:cover;
+  }
+  body button{
+   
+     position:absolute;
+     width:70px;
+     height:35px;
+     top:5%;
+     left:66%;
+     border-color:firebrick;
+     border-style:double;
+     background-color:gray;
+     font-size:15px;
+
+  }
+  body input{
+    position:absolute;
+    width:150px;
+    height:25px;
+    top:6%;
+    left:75%;
+    border-color:firebrick;
+    border-style:double;
+    background-color:limegreen;
+    font-size:15px;
+
+  }
+  
+  
+
+ 
+body h2{
+    position:absolute;
+    font-family:cursive;
+    font-size:40px;
+    top:30%;
+    left:35%;
+    color:crimson;
+}
+iframe{
+    position:absolute;
+   
+    top:50%;
+    left:73%;
+    border-color: darkred;
+    border-radius:3px;
+    border-style: groove;
+    border-left-width:20px;
+    border-width:2px;
+}
+    
+
+
+
+.page{
+    position:relative;
+    width:100%;
+    height:70vh;
+    display:flex;
+   
+    background:linear-gradient(to right, pink,yellow)
+}
+.page h1{
+    position:relative;
+    font-size:20px;
+    left:20%;
+    top:0%
+}
+.page p{
+    position:relative;
+    font-size:10px;
+    left:20%;
+    top:1%;
+    color:rgba(0, 0, 0, 0.685);
+}
+.page div{
+width:300px;
+padding:19px;
+}
+.imgss{
+    position:relative;
+    vertical-align: middle;
+    top:25%;
+    right:40%;
+    border: 5px solid yellowgreen;
+}
+
+.img5{
+    position:absolute;
+    vertical-align: middle;
+    top:43%;
+    left:0%;
+    border-color:snow;
+    border-style: double;
+    border-radius:3px;
+    border-image-slice: fill;
+   border-style: groove;
+    border-width:5px;
+}
+.contact{
+    position:relative;
+    width:100%;
+    height:70vh;
+    opacity:0.6;
+    background-color: honeydew;
+   
+    
+    
+}
+.contact form{
+  position:absolute;
+  top:40%;
+  left:65%;
+
+}
+.form input{
+    position:relative;
+    width:150px;
+    height:25px;
+    top:6%;
+    left:15%;
+    border-color:firebrick;
+    border-style:double;
+    background-color:limegreen;
+    font-size:15px;
+}
+
+
+
+
+
+.contact h1{
+    position:relative;
+    left:60%;
+    top:20%;
+    
+    font-family:cursive;
+    font-size:20px;
+    text-decoration:underline;
+    color: blue;
+}
+.logo{
+    position:absolute;
+   bottom:0%;
+    left:35%;
+   
+}
+.logo img{
+    width: 140px;
+    
+}
+.logo2{
+    position:absolute;
+   bottom:0%;
+    left:45%;
+   
+}
+.logo2 img{
+    width: 140px;
+    
+}
+.logo3{
+    position:absolute;
+   bottom:0%;
+    left:58%;
+   
+}
+.logo3 img{
+    width: 100px;
+    
+}
+.contact h2{
+    position: absolute;
+    font-size:40px;
+    font-family: cursive;
+    top:50%;
+    left:38%;
+    color: blue;
+}
+.contact p{
+    position:absolute;
+    font-size:5px;
+    font-family:cursive;
+    top:0%;
+    left:30%;
+    color: blue;
+  
+    width:100px;
+    height:50px;
+    opacity:0.3;
+
+   
+}
+span{
+    padding:30px;
+}
+.contact h1:hover{
+    color:seagreen;
+    text-decoration:underline;
+    font-size:20px;
+}
+.contact h1:hover{
+    animation-name: text;
+    animation-iteration-count:infinite;
+    cursor: pointer;
+    animation-duration:3s;
+}
+.img6{
+    position:absolute;
+    vertical-align: middle;
+    top:0%;
+    right:0%;
+    border-color:snow;
+    border-style: double;
+    border-radius:3px;
+    border-image-slice: fill;
+   border-style: groove;
+    border-width:5px;
+    opacity: 0.4;
+}
+iframe{
+    position:absolute;
+    top:39%;
+    left:72%;
+    border-color:snow;
+    border-style: double;
+    border-radius:3px;
+    border-image-slice: fill;
+   border-style: groove;
+    border-width:5px;
+   
+}
+.contact h3{
+    position:absolute;
+    top:0%;
+    left:10%;
+    text-decoration: underline;
+    color: lightcoral;
+}
